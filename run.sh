@@ -12,3 +12,4 @@ podman cp zlib-ng:/zlib-ng/zconf.h .
 podman cp zlib-ng:/zlib-ng/zlib.h .
 # /usr/lib/pkgconfig
 podman cp zlib-ng:/zlib-ng/zlib.pc .
+podman rm zlib-ng
