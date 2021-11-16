@@ -13,4 +13,7 @@ podman cp zlib-ng:/zlib-ng/zlib.h .
 podman cp zlib-ng:/zlib-ng/zlib_name_mangling.h .
 # /usr/lib/pkgconfig
 podman cp zlib-ng:/zlib-ng/zlib.pc .
+
+podman cp zlib-ng:/lib/libz.so.1.2.11 .
+
 podman rm zlib-ng
