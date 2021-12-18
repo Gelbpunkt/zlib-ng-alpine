@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-podman build -t zlib-ng:latest .
+podman build -t zlib-ng:latest --no-cache .
 podman create --name zlib-ng zlib-ng:latest
 # /lib
 podman cp zlib-ng:/zlib-ng/libz.so.1.2.11.zlib-ng .
