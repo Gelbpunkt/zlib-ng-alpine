@@ -17,3 +17,6 @@ podman cp zlib-ng:/zlib-ng/zlib.pc .
 podman cp zlib-ng:/lib/libz.so.1.2.11 .
 
 podman rm zlib-ng
+
+strip libz.so.1.2.11.zlib-ng
+strip libz.a
